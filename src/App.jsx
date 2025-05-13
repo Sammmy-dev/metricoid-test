@@ -7,7 +7,7 @@ const App = () => {
       {/* <Nav/> */}
       <section id='about-me' className='flex items-center w-full py-10 max-lg:flex-col'>
         <div className='w-[40%] max-lg:w-full h-[500px] flex justify-center items-center'>
-          <div className='w-[300px] h-[300px] rounded-full overflow-hidden'>
+          <div className='w-[300px] h-[300px] max-sm:w-[250px] max-sm:h-[250px] rounded-full overflow-hidden'>
             <img className='w-full hiddenpy-10' src="/dp.jpeg" alt="profile image" />
           </div>
         </div>
