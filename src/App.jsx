@@ -23,13 +23,13 @@ const App = () => {
         <h2 className='mb-3 text-3xl'>Skills</h2>
         <hr className='w-[200px] mb-4'/>
         <ul className='flex flex-wrap gap-2 text-blue-700'>
-          <li className="bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold">HTML</li>
-          <li className="bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold">CSS</li>
-          <li className="bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold">JavaScript</li>
-          <li className="bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold">React</li>
-          <li className="bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold">MongoBD</li>
-          <li className="bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold">Next.js</li>
-          <li className="bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold">Express.js</li>
+          <li className="tag">HTML</li>
+          <li className="tag">CSS</li>
+          <li className="tag">JavaScript</li>
+          <li className="tag">React</li>
+          <li className="tag">MongoBD</li>
+          <li className="tag">Next.js</li>
+          <li className="tag">Express.js</li>
         </ul>
       </section>
 

@@ -6,15 +6,11 @@ body{
     background-color: rgb(66, 63, 63);
     color: azure;
     /* background-color: #FF5722; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
-
-@theme {
-    --font-zentry: 'zentry', 'sans-serif';
-    --font-general: 'general', 'sans-serif';
-    --font-circular-web: 'circular-web', 'sans-serif';
-    --font-robert-medium: 'robert-medium', 'sans-serif';
-    --font-robert-regular: 'robert-regular', 'sans-serif';
-    /* --color-primary-100: #FF5722; */
+@layer utilities {
+    .tag {
+      @apply bg-blue-100 rounded-md py-2 px-3 flex justify-center items-center font-semibold;
+    }
 }
