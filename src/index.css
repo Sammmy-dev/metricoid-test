@@ -1,10 +1,17 @@
 @import "tailwindcss";
 
+html{
+    font-size: 16px;
+}
+
 body{
     font-family: 'General Sans', sans-serif;
     width: 100dvw;
     background-color: rgb(66, 63, 63);
     color: azure;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     /* background-color: #FF5722; */
     /* overflow-x: hidden; */
 }
