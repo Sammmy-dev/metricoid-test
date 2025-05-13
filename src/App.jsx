@@ -1,10 +1,8 @@
 import React from 'react'
-import Nav from './components/Nav'
 
 const App = () => {
   return (
     <div className='w-full px-20 max-md:px-5'>
-      {/* <Nav/> */}
       <section id='about-me' className='flex items-center w-full py-10 max-lg:flex-col'>
         <div className='w-[40%] max-lg:w-full h-[500px] flex justify-center items-center'>
           <div className='w-[300px] h-[300px] max-sm:w-[250px] max-sm:h-[250px] rounded-full overflow-hidden'>
