@@ -7,8 +7,8 @@ const App = () => {
       {/* <Nav/> */}
       <section id='about-me' className='flex items-center w-full py-10'>
         <div className='w-[50%] h-[500px] flex justify-center items-center'>
-          <div className='w-[300px] h-[300px]'>
-            <img className='w-[70%]' src="" alt="profile image" />
+          <div className='w-[300px] h-[300px] rounded-full overflow-hidden'>
+            <img className='w-full' src="/dp.jpeg" alt="profile image" />
           </div>
         </div>
         <div className="w-[50%]">
