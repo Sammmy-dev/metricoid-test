@@ -3,15 +3,15 @@ import Nav from './components/Nav'
 
 const App = () => {
   return (
-    <div>
+    <div className='w-full px-40'>
       {/* <Nav/> */}
-      <section id='about-me' className='flex items-center'>
-        <div className='w-[50%}'>
-          <div>
-            <img src="" alt="profile image" />
+      <section id='about-me' className='flex items-center w-full py-10'>
+        <div className='w-[50%] h-[500px] flex justify-center items-center'>
+          <div className='w-[300px] h-[300px]'>
+            <img className='w-[70%]' src="" alt="profile image" />
           </div>
         </div>
-        <div className="w-[50%}'">
+        <div className="w-[50%]">
           <h3>A Fullstack Web Developer</h3>
           <h2>Ajiboye Samuel</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maiores facilis qui reprehenderit cum nobis voluptates quidem cupiditate praesentium mollitia? Architecto a placeat assumenda, commodi blanditiis esse mollitia corporis. Nesciunt!</p>
